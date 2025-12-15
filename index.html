@@ -4,40 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form>
-        <div class="name_lastname">
-        <div>
-            <label for="Name">First name*</label>
-            <input type="text" id="Name" placeholder="john">
+     <h2>CONNECT WITH US</h2>
+     <div class="name_lastname">
+        <div class="name">
+            <label for="name">First name*</label>
+            <input type="text" id="name">
         </div>
-         <div>
-            <label for="Last_Name">Last Name*</label>
-            <input type="text" id="Last_Name" placeholder="doe">
-         </div>
+        <div class="last_name">
+            <label for="last_name">Last name*</label>
+            <input type="text" id="last_name">
         </div>
-        <div>
+        <div class="email">
             <label for="email">Email*</label>
-            <input type="email" id="email" placeholder="john.doe@example.com">
+            <input type="email" id="email">
         </div>
-        <div>
-            <label for="password">Password*</label>
-            <input type="password" id="password">
+        <div class="phone">
+            <label for="tel">Phone</label>
+            <input type="tel" id="tel">
         </div>
-        <div>
-            <label for="phone">Tel Number*</label>
-            <input type="tel" id="phone">
+        <div class="message">
+            <label for="message">Message</label>
+            <textarea  id="message"></textarea>
         </div>
-        <div>
-            <label for="number">Number*</label>
-            <input type="number" id="number" min="0" max="10">
-        </div>
-        <div>
-            <label for="text">text</label>
-            <textarea  id="text"></textarea>
-        </div>
-        <button type="submit">Submit*</button>
+        <button type="submit">Submit</button>
+     </div>
     </form>
+
 </body>
 </html>
